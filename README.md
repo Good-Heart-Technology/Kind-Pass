@@ -29,13 +29,14 @@ A modern, kid-friendly passphrase generator that creates secure, easy-to-remembe
 
 1. Fork this repository on GitHub
 2. Log in to your Cloudflare account
-3. Go to Worker & Pages > Pages > Create a project
+3. Go to Workers & Pages > Pages > Create a project
 4. Connect your GitHub account
 5. Select your forked repository
 6. Configure build settings:
    - Build command: (leave empty)
    - Build output directory: /
 7. Click "Save and Deploy"
+8. Optionally add a custom domain
 
 Your site will be automatically deployed and updated whenever you push changes to your repository.
 
@@ -63,9 +64,9 @@ For support or questions, please open an issue in the GitHub repository or conta
 
 ## Donate
 
-Support our mission of creating accessible technology solutions for nonprofits by making a donation:
+Support our mission of creating accessible technology solutions for nonprofits by making a donation: 
+[![Donate](https://img.shields.io/badge/Donate-Here-brightgreen)](https://goodhearttech.org/donate/)
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?hosted_button_id=YOUR_PAYPAL_BUTTON_ID)
 
 ---
 
