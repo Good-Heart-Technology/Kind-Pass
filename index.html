@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kind Pass - Easy-to-Type Passphrase Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Kind Pass</h1>
+            <p class="subtitle">Generate easy-to-type, secure passphrases</p>
+        </header>
+
+        <main>
+            <section class="generator-section">
+                <div class="password-display">
+                    <input type="text" id="passwordOutput" readonly>
+                    <button id="copyButton" title="Copy to clipboard">
+                        <i class="fas fa-copy"></i>
+                    </button>
+                </div>
+                <button id="generateButton" class="primary-button">
+                    <i class="fa-solid fa-rotate"></i> Generate New Passphrase
+                </button>
+            </section>
+
+            <section class="info-section">
+                <h2>About Kind Pass</h2>
+                <p>Kind Pass generates easy-to-type passphrases that are both secure and convenient. Our passphrases are 16 characters long and use a combination of words and numbers that are easy to remember and type while maintaining security.</p>
+                
+                <h2>Why Passphrases Matter</h2>
+                <p>Passphrases are more secure than traditional passwords because they're longer and easier to remember. They're also more resistant to brute-force attacks and dictionary-based cracking attempts.</p>
+                
+                <h2>Privacy & Security</h2>
+                <p>Your privacy is important to us. All passphrases are generated directly in your browser using JavaScript - no data is ever sent to or stored on our servers. We recommend using a password manager to securely store your passphrases.</p>
+                
+                <h2>Additional Security Tips</h2>
+                <p>While strong passphrases are important, they're just one part of good security practices. We strongly recommend using Multi-Factor Authentication (MFA) whenever possible. <a href="https://www.cisa.gov/resources-tools/resources/multi-factor-authentication-mfa" target="_blank" rel="noopener noreferrer">Learn more about MFA from CISA</a>.</p>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-left">
+                    <a href="https://goodhearttech.org/" target="_blank" rel="noopener noreferrer" class="footer-brand">
+                        <img src="https://graphics.goodhearttech.org/GHT-AllWhiteLogo-phishsite.png" alt="Good Heart Tech Logo" class="footer-logo">
+                    </a>
+                    <p class="copyright">&copy; <span id="currentYear"></span> All rights reserved.</p>
+                </div>
+                <div class="footer-right">
+                    <a href="https://goodhearttech.org/donate/" class="donate-button" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-heart"></i> Donate
+                    </a>
+                    <a href="https://github.com/Good-Heart-Technology/Kind-Phrase" class="github-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
