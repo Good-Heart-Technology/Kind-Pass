@@ -1,6 +1,6 @@
 Generate secure, easy-to-remember passphrases with [Kind Pass](http://password.nonprofittools.org/), a modern password generator designed for accessibility and user experience. Use it for free to create strong, kid-friendly passwords that are both secure and easy to type.
 
-## 👥 About [Good Heart Tech](https://goodhearttech.org/)
+## 💙 About [Good Heart Tech](https://goodhearttech.org/)
 
 This app was developed and hosted by [Good Heart Tech](https://goodhearttech.org/), a nonprofit committed to empowering other nonprofits through accessible technology solutions. Our mission is to equip nonprofits with the tools and support they need to thrive and operate securely in today's digital landscape.
 
