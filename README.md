@@ -1,21 +1,23 @@
-# Kind Pass - Easy-to-Type Passphrase Generator
+Generate secure, easy-to-remember passphrases with [Kind Pass](http://password.nonprofittools.org/), a modern password generator designed for accessibility and user experience. Use it for free to create strong, kid-friendly passwords that are both secure and easy to type.
 
-A modern, kid-friendly passphrase generator that creates secure, easy-to-remember passwords. Built with a focus on accessibility and user experience, [Kind Pass](https://password.nonprofittools.org) helps users generate strong passwords that are both secure and easy to type.
+## 👥 About [Good Heart Tech](https://goodhearttech.org/)
 
-## About [Good Heart Tech](https://nonprofittools.org)
+This app was developed and hosted by [Good Heart Tech](https://goodhearttech.org/), a nonprofit committed to empowering other nonprofits through accessible technology solutions. Our mission is to equip nonprofits with the tools and support they need to thrive and operate securely in today's digital landscape.
 
-[Good Heart Tech](https://nonprofittools.org) is dedicated to creating technology solutions that make the digital world more accessible and secure for everyone. Our mission is to empower nonprofits with user-friendly tools that prioritize security without compromising usability.
+[![Donate to Good Heart Tech](https://img.shields.io/badge/Donate_to_Good_Heart_Tech-💙-white)](https://goodhearttech.org/donate/)
 
-## Features
+## ✨ Features
 
-- Generates 16-character passphrases using kid-friendly words
-- Ensures at least one number and one special character
+- Generate 16-character passphrases using kid-friendly words
+- Ensure at least one number and one special character
 - Easy-to-type combinations for better accessibility
 - Modern, responsive design with dark theme
 - One-click copy functionality
 - Mobile-friendly interface
+- Client-side only processing
+- No data collection or storage
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - HTML5
 - CSS3 (with modern features and animations)
@@ -23,51 +25,31 @@ A modern, kid-friendly passphrase generator that creates secure, easy-to-remembe
 - Font Awesome for icons
 - Hosted on Cloudflare Pages
 
-## Deployment
+## 🚀 Deployment
 
-### Using Cloudflare Pages
-
-1. Fork this repository on GitHub
-2. Log in to your Cloudflare account
-3. Go to Workers & Pages > Pages > Create a project
-4. Connect your GitHub account
+1. Fork this repository to your GitHub account
+2. Log in to your Cloudflare account and navigate to Workers & Pages > Create
+3. Select Pages
+4. Choose "Connect to Git"
 5. Select your forked repository
-6. Configure build settings:
+6. Configure your build settings:
    - Build command: (leave empty)
    - Build output directory: /
 7. Click "Save and Deploy"
-8. Optionally add a custom domain
 
-Your site will be automatically deployed and updated whenever you push changes to your repository.
+## 📄 License
 
-## Open Source Commitment & License
+This project is licensed under the [GNU General Public License v3.0](LICENSE).
 
-[Good Heart Tech](https://nonprofittools.org) is committed to open source software and the principles of transparency, collaboration, and accessibility. Our projects are released under the GNU General Public License v3.0 (GPLv3), ensuring that anyone can use, modify, and distribute our code while upholding the same freedoms for others.
+## ⚠️ Disclaimer
 
-We believe in empowering nonprofits and the broader community with open, secure, and reliable technology solutions. Contributions and feedback are always welcome!
-
-For details, see our [LICENSE](LICENSE) file.
-
-## Security
-
-[Kind Pass](https://password.nonprofittools.org) is designed with security best practices in mind:
-- Generates cryptographically random passphrases
-- Ensures minimum length requirements
-- Includes numbers and special characters
-- Uses kid-friendly words for better memorability
-- No data collection or storage
-- Client-side only processing
-
-## Support
-
-For support or questions, please open an issue in the GitHub repository or contact [Good Heart Tech](https://nonprofittools.org) directly.
-
-## Donate
-
-Support our mission of creating accessible technology solutions for nonprofits by making a donation: 
-[![Donate](https://img.shields.io/badge/Donate-Here-brightgreen)](https://goodhearttech.org/donate/)
-
+The tools provided are intended for informational purposes only and do not constitute professional advice. They may experience interruptions or stop functioning at any time and are provided without any guarantees or warranties. Use them at your own discretion and risk.
 
 ---
 
-Made with ❤️ by [Good Heart Tech](https://nonprofittools.org)
+<a href="https://goodhearttech.org/">
+  <img src="https://graphics.goodhearttech.org/GHT-AllWhiteLogo-phishsite.png" alt="Good Heart Tech" width="400">
+</a>
+<br><br>
+
+[![Donate to Good Heart Tech](https://img.shields.io/badge/Donate_to_Good_Heart_Tech-💙-white)](https://goodhearttech.org/donate/)
