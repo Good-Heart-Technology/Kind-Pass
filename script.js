@@ -1,143 +1,143 @@
 // Word lists for generating easy-to-type passphrases
 const commonWords = [
     // Nature
-    'sun', 'moon', 'star', 'tree', 'bird', 'fish', 'rain', 'snow', 'wind', 'fire',
-    'water', 'earth', 'light', 'dark', 'cloud', 'sky', 'grass', 'flower', 'leaf',
-    'rock', 'sand', 'wave', 'ocean', 'river', 'lake', 'mountain', 'forest', 'garden',
-    'beach', 'desert', 'cave', 'hill', 'valley', 'island', 'bridge', 'path', 'road',
-    'seed', 'root', 'stem', 'bark', 'pine', 'palm', 'coral', 'shell', 'pebble', 'stone',
-    'moss', 'fern', 'vine', 'bush', 'weed', 'reed', 'marsh', 'swamp', 'creek', 'brook',
-    'stream', 'spring', 'fall', 'cliff', 'ridge', 'peak', 'shore', 'coast', 'bay', 'gulf',
+    'Sun', 'Moon', 'Star', 'Tree', 'Bird', 'Fish', 'Rain', 'Snow', 'Wind', 'Fire',
+    'Water', 'Earth', 'Light', 'Dark', 'Cloud', 'Sky', 'Grass', 'Flower', 'Leaf',
+    'Rock', 'Sand', 'Wave', 'Ocean', 'River', 'Lake', 'Mountain', 'Forest', 'Garden',
+    'Beach', 'Desert', 'Cave', 'Hill', 'Valley', 'Island', 'Bridge', 'Path', 'Road',
+    'Seed', 'Root', 'Stem', 'Bark', 'Pine', 'Palm', 'Coral', 'Shell', 'Pebble', 'Stone',
+    'Moss', 'Fern', 'Vine', 'Bush', 'Weed', 'Reed', 'Marsh', 'Swamp', 'Creek', 'Brook',
+    'Stream', 'Spring', 'Fall', 'Cliff', 'Ridge', 'Peak', 'Shore', 'Coast', 'Bay', 'Gulf',
     
     // Animals
-    'cat', 'dog', 'duck', 'frog', 'bear', 'lion', 'tiger', 'elephant', 'giraffe', 'zebra',
-    'monkey', 'panda', 'koala', 'penguin', 'owl', 'eagle', 'hawk', 'dolphin', 'whale',
-    'shark', 'turtle', 'rabbit', 'mouse', 'horse', 'cow', 'sheep', 'pig', 'chicken',
-    'goat', 'deer', 'fox', 'wolf', 'camel', 'kangaroo', 'hippo', 'seal', 'otter',
-    'beaver', 'raccoon', 'squirrel', 'chipmunk', 'hedgehog', 'badger', 'beetle', 'ant',
-    'bee', 'wasp', 'moth', 'butterfly', 'caterpillar', 'spider', 'snail', 'worm',
-    'ladybug', 'dragonfly', 'grasshopper', 'cricket', 'firefly', 'mosquito', 'fly',
-    'robin', 'sparrow', 'parrot', 'turkey', 'goose', 'swan', 'crane', 'stork',
+    'Cat', 'Dog', 'Duck', 'Frog', 'Bear', 'Lion', 'Tiger', 'Elephant', 'Giraffe', 'Zebra',
+    'Monkey', 'Panda', 'Koala', 'Penguin', 'Owl', 'Eagle', 'Hawk', 'Dolphin', 'Whale',
+    'Shark', 'Turtle', 'Rabbit', 'Mouse', 'Horse', 'Cow', 'Sheep', 'Pig', 'Chicken',
+    'Goat', 'Deer', 'Fox', 'Wolf', 'Camel', 'Kangaroo', 'Hippo', 'Seal', 'Otter',
+    'Beaver', 'Raccoon', 'Squirrel', 'Chipmunk', 'Hedgehog', 'Badger', 'Beetle', 'Ant',
+    'Bee', 'Wasp', 'Moth', 'Butterfly', 'Caterpillar', 'Spider', 'Snail', 'Worm',
+    'Ladybug', 'Dragonfly', 'Grasshopper', 'Cricket', 'Firefly', 'Mosquito', 'Fly',
+    'Robin', 'Sparrow', 'Parrot', 'Turkey', 'Goose', 'Swan', 'Crane', 'Stork',
     
     // Colors
-    'red', 'blue', 'green', 'yellow', 'purple', 'orange', 'pink', 'brown', 'black',
-    'white', 'gray', 'gold', 'silver', 'bronze', 'coral', 'lime', 'navy', 'teal',
-    'crimson', 'scarlet', 'maroon', 'burgundy', 'cobalt', 'azure', 'turquoise',
-    'emerald', 'jade', 'olive', 'amber', 'violet', 'lavender', 'plum', 'indigo',
-    'beige', 'tan', 'khaki', 'ivory', 'pearl', 'copper', 'slate', 'charcoal',
+    'Red', 'Blue', 'Green', 'Yellow', 'Purple', 'Orange', 'Pink', 'Brown', 'Black',
+    'White', 'Gray', 'Gold', 'Silver', 'Bronze', 'Coral', 'Lime', 'Navy', 'Teal',
+    'Crimson', 'Scarlet', 'Maroon', 'Burgundy', 'Cobalt', 'Azure', 'Turquoise',
+    'Emerald', 'Jade', 'Olive', 'Amber', 'Violet', 'Lavender', 'Plum', 'Indigo',
+    'Beige', 'Tan', 'Khaki', 'Ivory', 'Pearl', 'Copper', 'Slate', 'Charcoal',
     
     // Family & People
-    'child', 'friend', 'teacher', 'doctor',
-    'nurse', 'chef', 'artist', 'singer', 'dancer', 'player', 'coach', 'helper', 'hero',
-    'aunt', 'uncle', 'cousin', 'grandma', 'grandpa', 'family', 'neighbor', 'pal',
-    'buddy', 'classmate', 'teammate', 'leader', 'guide', 'mentor',
-    'guardian', 'champion', 'winner',
+    'Child', 'Friend', 'Teacher', 'Doctor',
+    'Nurse', 'Chef', 'Artist', 'Singer', 'Dancer', 'Player', 'Coach', 'Helper', 'Hero',
+    'Aunt', 'Uncle', 'Cousin', 'Grandma', 'Grandpa', 'Family', 'Neighbor', 'Pal',
+    'Buddy', 'Classmate', 'Teammate', 'Leader', 'Guide', 'Mentor',
+    'Guardian', 'Champion', 'Winner',
     
     // Food & Drinks
-    'apple', 'banana', 'orange', 'grape', 'berry', 'peach', 'lemon', 'lime', 'melon',
-    'corn', 'peas', 'carrot', 'tomato', 'potato', 'bread', 'cake', 'cookie', 'candy',
-    'milk', 'juice', 'soup', 'rice', 'pasta', 'pizza', 'sandwich', 'salad', 'pear',
-    'plum', 'mango', 'kiwi', 'cherry', 'strawberry', 'raspberry', 'blueberry',
-    'blackberry', 'coconut', 'pineapple', 'watermelon', 'cantaloupe', 'honey',
-    'jam', 'jelly', 'syrup', 'sauce', 'spice', 'herb', 'pepper', 'salt', 'sugar',
+    'Apple', 'Banana', 'Orange', 'Grape', 'Berry', 'Peach', 'Lemon', 'Lime', 'Melon',
+    'Corn', 'Peas', 'Carrot', 'Tomato', 'Potato', 'Bread', 'Cake', 'Cookie', 'Candy',
+    'Milk', 'Juice', 'Soup', 'Rice', 'Pasta', 'Pizza', 'Sandwich', 'Salad', 'Pear',
+    'Plum', 'Mango', 'Kiwi', 'Cherry', 'Strawberry', 'Raspberry', 'Blueberry',
+    'Blackberry', 'Coconut', 'Pineapple', 'Watermelon', 'Cantaloupe', 'Honey',
+    'Jam', 'Jelly', 'Syrup', 'Sauce', 'Spice', 'Herb', 'Pepper', 'Salt', 'Sugar',
     
     // Toys & Games
-    'toy', 'game', 'puzzle', 'block', 'card', 'dice', 'kite', 'rope',
-    'drum', 'bell', 'flag', 'book', 'pen', 'pencil', 'paper', 'crayon', 'paint',
-    'marbles', 'jacks', 'yo-yo', 'top', 'whistle', 'flute', 'guitar', 'piano', 'violin',
-    'trumpet', 'tambourine', 'xylophone', 'harmonica', 'chimes', 'rattle', 'shaker',
-    'board',
+    'Toy', 'Game', 'Puzzle', 'Block', 'Card', 'Dice', 'Kite', 'Rope',
+    'Drum', 'Bell', 'Flag', 'Book', 'Pen', 'Pencil', 'Paper', 'Crayon', 'Paint',
+    'Marbles', 'Jacks', 'Yo-yo', 'Top', 'Whistle', 'Flute', 'Guitar', 'Piano', 'Violin',
+    'Trumpet', 'Tambourine', 'Xylophone', 'Harmonica', 'Chimes', 'Rattle', 'Shaker',
+    'Board',
     
     // Places
-    'home', 'school', 'park', 'store', 'shop', 'house', 'room', 'yard', 'pool', 'pond',
-    'field', 'farm', 'zoo', 'city', 'town', 'village', 'beach', 'island', 'mountain',
-    'playground', 'gym', 'library', 'museum', 'theater', 'restaurant', 'cafe', 'market',
-    'church', 'temple', 'mosque', 'stadium', 'arena', 'hall', 'center', 'station',
-    'airport', 'harbor', 'port', 'dock', 'pier', 'bridge', 'tunnel', 'tower', 'castle',
+    'Home', 'School', 'Park', 'Store', 'Shop', 'House', 'Room', 'Yard', 'Pool', 'Pond',
+    'Field', 'Farm', 'Zoo', 'City', 'Town', 'Village', 'Beach', 'Island', 'Mountain',
+    'Playground', 'Gym', 'Library', 'Museum', 'Theater', 'Restaurant', 'Cafe', 'Market',
+    'Church', 'Temple', 'Mosque', 'Stadium', 'Arena', 'Hall', 'Center', 'Station',
+    'Airport', 'Harbor', 'Port', 'Dock', 'Pier', 'Bridge', 'Tunnel', 'Tower', 'Castle',
     
     // Actions
-    'walk', 'run', 'jump', 'hop', 'skip', 'dance', 'sing', 'play', 'read', 'write',
-    'draw', 'paint', 'build', 'make', 'help', 'care', 'love', 'share', 'smile', 'laugh',
-    'bounce', 'slide', 'swing', 'climb', 'crawl', 'roll', 'spin', 'twirl', 'wave',
-    'clap', 'stomp', 'march', 'stretch', 'bend', 'reach', 'grab', 'hold', 'carry',
-    'push', 'pull', 'lift', 'drop', 'catch', 'throw', 'kick', 'hit',
+    'Walk', 'Run', 'Jump', 'Hop', 'Skip', 'Dance', 'Sing', 'Play', 'Read', 'Write',
+    'Draw', 'Paint', 'Build', 'Make', 'Help', 'Care', 'Love', 'Share', 'Smile', 'Laugh',
+    'Bounce', 'Slide', 'Swing', 'Climb', 'Crawl', 'Roll', 'Spin', 'Twirl', 'Wave',
+    'Clap', 'Stomp', 'March', 'Stretch', 'Bend', 'Reach', 'Grab', 'Hold', 'Carry',
+    'Push', 'Pull', 'Lift', 'Drop', 'Catch', 'Throw', 'Kick', 'Hit',
     
     // Feelings
-    'happy', 'sad', 'mad', 'glad', 'good', 'kind', 'nice', 'sweet', 'fun', 'cool',
-    'warm', 'soft', 'bright', 'calm', 'safe', 'free', 'proud', 'brave', 'strong',
-    'excited', 'joyful', 'peaceful', 'cheerful', 'merry', 'thankful', 'grateful',
-    'confident', 'quiet', 'gentle', 'friendly', 'caring', 'loving', 'cozy', 'comfy',
+    'Happy', 'Sad', 'Mad', 'Glad', 'Good', 'Kind', 'Nice', 'Sweet', 'Fun', 'Cool',
+    'Warm', 'Soft', 'Bright', 'Calm', 'Safe', 'Free', 'Proud', 'Brave', 'Strong',
+    'Excited', 'Joyful', 'Peaceful', 'Cheerful', 'Merry', 'Thankful', 'Grateful',
+    'Confident', 'Quiet', 'Gentle', 'Friendly', 'Caring', 'Loving', 'Cozy', 'Comfy',
     
     // Time & Weather
-    'day', 'night', 'morning', 'evening', 'spring', 'summer', 'fall', 'winter', 'today',
-    'tomorrow', 'week', 'month', 'year', 'time', 'rain', 'snow', 'wind', 'storm',
-    'dawn', 'dusk', 'noon', 'midnight', 'afternoon', 'yesterday', 'weekend', 'holiday',
-    'season', 'rainbow', 'thunder', 'lightning', 'breeze', 'frost', 'fog', 'mist',
+    'Day', 'Night', 'Morning', 'Evening', 'Spring', 'Summer', 'Fall', 'Winter', 'Today',
+    'Tomorrow', 'Week', 'Month', 'Year', 'Time', 'Rain', 'Snow', 'Wind', 'Storm',
+    'Dawn', 'Dusk', 'Noon', 'Midnight', 'Afternoon', 'Yesterday', 'Weekend', 'Holiday',
+    'Season', 'Rainbow', 'Thunder', 'Lightning', 'Breeze', 'Frost', 'Fog', 'Mist',
     
     // Numbers & Shapes
-    'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten',
-    'circle', 'square', 'triangle', 'star', 'heart', 'diamond', 'oval', 'line', 'dot',
-    'round', 'flat', 'curved', 'straight', 'pointed', 'smooth', 'rough', 'sharp',
-    'rectangle', 'cross', 'angle', 'edge', 'corner', 'side', 'top', 'bottom',
+    'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten',
+    'Circle', 'Square', 'Triangle', 'Star', 'Heart', 'Diamond', 'Oval', 'Line', 'Dot',
+    'Round', 'Flat', 'Curved', 'Straight', 'Pointed', 'Smooth', 'Rough', 'Sharp',
+    'Rectangle', 'Cross', 'Angle', 'Edge', 'Corner', 'Side', 'Top', 'Bottom',
     
     // Transportation
-    'car', 'bus', 'train', 'boat', 'ship', 'plane', 'bike', 'truck', 'van', 'cart',
-    'sled', 'skate', 'scooter', 'wagon', 'wheel', 'road', 'path', 'track', 'bridge',
-    'skateboard', 'roller', 'skates', 'bicycle', 'tricycle', 'sleigh', 'carriage',
-    'cab', 'taxi', 'subway', 'canoe', 'kayak', 'raft', 'ferry', 'cruise', 'sail',
-    'paddle', 'row',
+    'Car', 'Bus', 'Train', 'Boat', 'Ship', 'Plane', 'Bike', 'Truck', 'Van', 'Cart',
+    'Sled', 'Skate', 'Scooter', 'Wagon', 'Wheel', 'Road', 'Path', 'Track', 'Bridge',
+    'Skateboard', 'Roller', 'Skates', 'Bicycle', 'Tricycle', 'Sleigh', 'Carriage',
+    'Cab', 'Taxi', 'Subway', 'Canoe', 'Kayak', 'Raft', 'Ferry', 'Cruise', 'Sail',
+    'Paddle', 'Row',
     
     // Clothing
-    'hat', 'shirt', 'pants', 'dress', 'sock', 'shoe', 'coat', 'glove', 'scarf', 'belt',
-    'ring', 'necklace', 'bracelet', 'watch', 'bag', 'pack', 'pocket', 'button', 'zipper',
-    'sweater', 'jacket', 'vest', 'hoodie', 'sweatshirt', 't-shirt', 'shorts', 'skirt',
-    'suit', 'tie', 'bow', 'ribbon', 'lace', 'collar', 'sleeve', 'cuff', 'hem', 'seam',
-    'stitch', 'patch', 'tag', 'label',
+    'Hat', 'Shirt', 'Pants', 'Dress', 'Sock', 'Shoe', 'Coat', 'Glove', 'Scarf', 'Belt',
+    'Ring', 'Necklace', 'Bracelet', 'Watch', 'Bag', 'Pack', 'Pocket', 'Button', 'Zipper',
+    'Sweater', 'Jacket', 'Vest', 'Hoodie', 'Sweatshirt', 'T-shirt', 'Shorts', 'Skirt',
+    'Suit', 'Tie', 'Bow', 'Ribbon', 'Lace', 'Collar', 'Sleeve', 'Cuff', 'Hem', 'Seam',
+    'Stitch', 'Patch', 'Tag', 'Label',
     
     // Body Parts
-    'head', 'hand', 'foot', 'arm', 'leg', 'eye', 'ear', 'nose', 'mouth', 'hair',
-    'face', 'back', 'neck', 'chest', 'heart', 'bone', 'skin', 'lip', 'toe',
-    'finger', 'thumb', 'nail', 'brow', 'cheek', 'chin', 'jaw', 'tongue', 'tooth',
-    'gum', 'throat', 'shoulder', 'elbow', 'wrist', 'palm', 'fist', 'knee', 'ankle',
-    'heel', 'sole',
+    'Head', 'Hand', 'Foot', 'Arm', 'Leg', 'Eye', 'Ear', 'Nose', 'Mouth', 'Hair',
+    'Face', 'Back', 'Neck', 'Chest', 'Heart', 'Bone', 'Skin', 'Lip', 'Toe',
+    'Finger', 'Thumb', 'Nail', 'Brow', 'Cheek', 'Chin', 'Jaw', 'Tongue', 'Tooth',
+    'Gum', 'Throat', 'Shoulder', 'Elbow', 'Wrist', 'Palm', 'Fist', 'Knee', 'Ankle',
+    'Heel', 'Sole',
     
     // School & Learning
-    'book', 'pen', 'pencil', 'paper', 'desk', 'chair', 'table', 'board', 'class', 'test',
-    'quiz', 'grade', 'score', 'mark', 'note', 'list', 'chart', 'map', 'globe',
-    'lesson', 'study', 'learn', 'teach', 'count', 'add', 'subtract', 'multiply',
-    'divide', 'spell', 'print', 'type', 'copy', 'paste', 'cut', 'erase', 'check',
+    'Book', 'Pen', 'Pencil', 'Paper', 'Desk', 'Chair', 'Table', 'Board', 'Class', 'Test',
+    'Quiz', 'Grade', 'Score', 'Mark', 'Note', 'List', 'Chart', 'Map', 'Globe',
+    'Lesson', 'Study', 'Learn', 'Teach', 'Count', 'Add', 'Subtract', 'Multiply',
+    'Divide', 'Spell', 'Print', 'Type', 'Copy', 'Paste', 'Cut', 'Erase', 'Check',
     
     // Music & Art
-    'song', 'tune', 'note', 'beat', 'drum', 'bell', 'horn', 'flute', 'guitar', 'piano',
-    'dance', 'draw', 'paint', 'color', 'art', 'craft', 'design', 'shape', 'line',
-    'rhythm', 'pitch', 'tone', 'melody', 'harmony', 'chorus', 'verse', 'bridge',
-    'refrain', 'solo', 'duet', 'trio', 'band', 'orchestra', 'choir', 'singer',
-    'player', 'artist', 'painter',
+    'Song', 'Tune', 'Note', 'Beat', 'Drum', 'Bell', 'Horn', 'Flute', 'Guitar', 'Piano',
+    'Dance', 'Draw', 'Paint', 'Color', 'Art', 'Craft', 'Design', 'Shape', 'Line',
+    'Rhythm', 'Pitch', 'Tone', 'Melody', 'Harmony', 'Chorus', 'Verse', 'Bridge',
+    'Refrain', 'Solo', 'Duet', 'Trio', 'Band', 'Orchestra', 'Choir', 'Singer',
+    'Player', 'Artist', 'Painter',
     
     // Sports & Games
-    'sport', 'game', 'play', 'team', 'score', 'win', 'lose', 'tie', 'race', 'match',
-    'round', 'point', 'goal', 'shot', 'pass', 'catch', 'throw', 'kick', 'hit',
-    'bounce', 'roll', 'slide', 'swing', 'dive', 'swim', 'jump', 'run', 'walk', 'skip',
-    'hop',
+    'Sport', 'Game', 'Play', 'Team', 'Score', 'Win', 'Lose', 'Tie', 'Race', 'Match',
+    'Round', 'Point', 'Goal', 'Shot', 'Pass', 'Catch', 'Throw', 'Kick', 'Hit',
+    'Bounce', 'Roll', 'Slide', 'Swing', 'Dive', 'Swim', 'Jump', 'Run', 'Walk', 'Skip',
+    'Hop',
     
     // Holidays & Celebrations
-    'holiday', 'celebration', 'party', 'festival', 'parade', 'concert', 'show', 'play',
-    'dance', 'song', 'music', 'food', 'cake', 'candy', 'gift', 'card', 'decor', 'light',
-    'star', 'tree', 'bell', 'ornament', 'wreath', 'garland', 'ribbon', 'bow', 'flag',
+    'Holiday', 'Celebration', 'Party', 'Festival', 'Parade', 'Concert', 'Show', 'Play',
+    'Dance', 'Song', 'Music', 'Food', 'Cake', 'Candy', 'Gift', 'Card', 'Decor', 'Light',
+    'Star', 'Tree', 'Bell', 'Ornament', 'Wreath', 'Garland', 'Ribbon', 'Bow', 'Flag',
     
     // Technology
-    'device', 'screen', 'keyboard', 'mouse', 'click', 'type', 'save', 'load', 'share',
-    'send', 'receive', 'upload', 'download', 'connect', 'link', 'search', 'find', 'open',
-    'close', 'start', 'stop', 'pause', 'play', 'record', 'video', 'photo', 'image',
+    'Device', 'Screen', 'Keyboard', 'Mouse', 'Click', 'Type', 'Save', 'Load', 'Share',
+    'Send', 'Receive', 'Upload', 'Download', 'Connect', 'Link', 'Search', 'Find', 'Open',
+    'Close', 'Start', 'Stop', 'Pause', 'Play', 'Record', 'Video', 'Photo', 'Image',
     
     // Safety & Health
-    'safety', 'health', 'clean', 'wash', 'brush', 'comb', 'trim', 'cut', 'clip',
-    'band', 'tape', 'wrap', 'cover', 'protect', 'guard', 'shield', 'shelter', 'help',
-    'care', 'rest', 'sleep', 'nap', 'wake', 'eat', 'drink', 'snack', 'meal', 'food'
+    'Safety', 'Health', 'Clean', 'Wash', 'Brush', 'Comb', 'Trim', 'Cut', 'Clip',
+    'Band', 'Tape', 'Wrap', 'Cover', 'Protect', 'Guard', 'Shield', 'Shelter', 'Help',
+    'Care', 'Rest', 'Sleep', 'Nap', 'Wake', 'Eat', 'Drink', 'Snack', 'Meal', 'Food'
 ];
 
 const numbers = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'];
-const specialChars = ['@', '#', '$', '%', '&', '*'];
+const specialChars = ['!', '@', '#', '$', '%', '&', '*'];
 
 // DOM Elements
 const passwordOutput = document.getElementById('passwordOutput');
